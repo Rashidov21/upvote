@@ -75,8 +75,9 @@ header nav .wrapper ul {
 
 .mobile-menu {
     position: absolute;
+    top: 15%;
     right: -500px;
-    width: 100%;
+    width: 300px;
     height: auto;
     background-color: #F4DC4C;
     display: block;

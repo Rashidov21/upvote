@@ -14,8 +14,13 @@
 
 /* MOBILE MENU ICON  */
 
+.menu {
+    display: none;
+}
+
 .active {
     position: absolute;
-    right: auto;
+    top: 15%;
+    right: 10%;
     transition: all 0.5s;
 }
