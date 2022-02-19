@@ -74,7 +74,8 @@ header nav .wrapper ul {
 }
 
 .mobile-menu {
-    position: absolute;
+    position: fixed;
+    z-index: 99;
     top: 15%;
     right: -500px;
     width: 300px;
@@ -133,6 +134,10 @@ header nav .wrapper ul {
 
 /* BANNER AREA STYLE  */
 
+#banner {
+    height: 800px;
+}
+
 .banner-content {
     display: flex;
     flex-direction: row;
@@ -155,4 +160,5 @@ header nav .wrapper ul {
 .banner-content .banner-img img {
     position: absolute;
     right: 0;
+    /* top: 200px; */
 }

@@ -42,6 +42,15 @@
         line-height: 70px;
         color: #000000;
     }
+    #banner {
+        height: 500px;
+    }
+    .banner-button {
+        position: absolute;
+        bottom: 50px;
+        left: 20%;
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -75,6 +84,18 @@
     }
 }
 
+@media screen and (max-width:512px) {
+    #banner {
+        height: 400px;
+    }
+    .banner-button {
+        position: absolute;
+        bottom: 150px;
+        left: 20%;
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width:420px) {
     .ticker marquee span {
         padding-left: 30px;
@@ -99,5 +120,14 @@
         font-size: 40px;
         line-height: 45px;
         color: #000000;
+    }
+    #banner {
+        height: 400px;
+    }
+    .banner-button {
+        position: absolute;
+        bottom: 200px;
+        left: 20%;
+        margin-top: 50px;
     }
 }
