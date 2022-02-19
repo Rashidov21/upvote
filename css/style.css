@@ -1,7 +1,96 @@
+@font-face {
+    font-family: "Gilroy", sans-serif;
+    src: url('../font/Gilroy-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Gilroy", sans-serif;
+    src: url('../font/Gilroy-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Gilroy", sans-serif;
+    src: url('../font/Gilroy-Semibold.ttf');
+}
+
+@font-face {
+    font-family: "Gilroy", sans-serif;
+    src: url('../font/Gilroy-Bold.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    font-family: "Gilroy", sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    background-color: #F1EBE3;
+}
+
+
+/* HEADER  */
+
+header {
+    position: sticky;
+    display: flex;
+}
+
+
+/* NAVBAR  */
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav .wrapper ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper ul li {
+    margin-left: 50px;
+}
+
+.wrapper ul li a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 37px;
+    /* identical to box height */
+    color: #000000;
+}
+
+
+/* TICKERS */
+
+.ticker {
+    width: 100%;
+    height: auto;
+    background-color: #F4DC4C;
+    border: 2px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150%;
+}
+
+.ticker marquee span {
+    padding-left: 30px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 37px;
+    color: #000000;
 }
