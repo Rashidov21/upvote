@@ -1,14 +1,17 @@
 @media screen and (max-width:1400px) {
-    .banner-content {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .banner-content .banner-text {
+    .banner-text {
         font-size: 4em;
+    }
+    .banner-image {
+        position: absolute;
+        right: 0;
+        top: 300px;
     }
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:992px) {
     .ticker marquee span {
         padding-left: 30px;
         font-family: Gilroy;
@@ -30,26 +33,16 @@
         /* identical to box height */
         color: #000000;
     }
-    .banner-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .banner-content .banner-text {
+    .banner-text {
         font-weight: 800;
         font-size: 4em;
         line-height: 70px;
         color: #000000;
     }
-    #banner {
-        height: 500px;
-    }
     .banner-button {
         position: absolute;
-        bottom: 50px;
-        left: 20%;
-        margin-top: 50px;
+        left: 10%;
+        margin-top: 150px;
     }
     .arrow-down {
         position: absolute;
@@ -77,15 +70,17 @@
     .menu {
         display: block;
     }
-    .banner-content .banner-text {
+    .banner-text {
         font-weight: 800;
         font-size: 3.2em;
         line-height: 50px;
         color: #000000;
         margin-top: 10px;
     }
-    .banner-content .banner-img {
-        margin-top: 20px;
+    .banner-button {
+        position: absolute;
+        left: 10%;
+        margin-top: 450px;
     }
     .arrow-down {
         position: absolute;
@@ -94,17 +89,7 @@
     }
 }
 
-@media screen and (max-width:512px) {
-    #banner {
-        height: 400px;
-    }
-    .banner-button {
-        position: absolute;
-        bottom: 150px;
-        left: 20%;
-        margin-top: 50px;
-    }
-}
+@media screen and (max-width:512px) {}
 
 @media screen and (max-width:420px) {
     .ticker marquee span {
@@ -125,19 +110,15 @@
     .menu {
         display: block;
     }
-    .banner-content .banner-text {
+    .banner-text {
         font-weight: 800;
         font-size: 40px;
         line-height: 45px;
         color: #000000;
     }
-    #banner {
-        height: 400px;
-    }
-    .banner-button {
+    .banner-image {
         position: absolute;
-        bottom: 200px;
-        left: 20%;
-        margin-top: 50px;
+        right: 0;
+        top: 380px;
     }
 }

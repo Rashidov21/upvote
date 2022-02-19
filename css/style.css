@@ -134,33 +134,19 @@ header nav .wrapper ul {
 
 /* BANNER AREA STYLE  */
 
-#banner {
-    height: 800px;
-}
-
-.banner-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner-content .banner-text {
+.banner-text {
     font-weight: 900;
     font-size: 5em;
     line-height: 112px;
     color: #000000;
+    display: inline-block;
+    margin-left: 60px;
 }
 
-.banner-content .banner-img {
-    /* position: absolute; */
-    max-width: 90%;
-}
-
-.banner-content .banner-img img {
+.banner-image {
     position: absolute;
     right: 0;
-    /* top: 200px; */
+    top: 200px;
 }
 
 
