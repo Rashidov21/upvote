@@ -162,3 +162,14 @@ header nav .wrapper ul {
     right: 0;
     /* top: 200px; */
 }
+
+
+/* LENTA  */
+
+#lenta {
+    position: relative;
+    min-width: 100%;
+    left: -10px;
+    right: -10px;
+    transform: rotate(5deg);
+}

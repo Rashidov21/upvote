@@ -51,6 +51,11 @@
         left: 20%;
         margin-top: 50px;
     }
+    .arrow-down {
+        position: absolute;
+        right: 15%;
+        margin-top: 400px;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -81,6 +86,11 @@
     }
     .banner-content .banner-img {
         margin-top: 20px;
+    }
+    .arrow-down {
+        position: absolute;
+        right: 5%;
+        margin-top: 400px;
     }
 }
 
