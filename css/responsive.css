@@ -1,0 +1,44 @@
+@media screen and (max-width:1100px) {
+    .ticker marquee span {
+        padding-left: 30px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5em;
+        line-height: 27px;
+        color: #000000;
+    }
+    .wrapper ul li {
+        margin-left: 30px;
+    }
+    .wrapper ul li a {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.3em;
+        line-height: 37px;
+        /* identical to box height */
+        color: #000000;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .ticker marquee span {
+        padding-left: 30px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2em;
+        line-height: 27px;
+        color: #000000;
+    }
+    .wrapper {
+        display: none;
+    }
+    .logo img {
+        width: 80%;
+    }
+    .menu {
+        display: block;
+    }
+}

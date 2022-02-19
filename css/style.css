@@ -49,6 +49,7 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
 }
 
 header nav .wrapper ul {
@@ -67,6 +68,39 @@ header nav .wrapper ul {
     font-style: normal;
     font-weight: 600;
     font-size: 1.5em;
+    line-height: 37px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.mobile-menu {
+    position: absolute;
+    right: -500px;
+    width: 100%;
+    height: auto;
+    background-color: #F4DC4C;
+    display: block;
+    transition: all 0.5s;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px 0px 50px 0px;
+}
+
+.mobile-menu ul li {
+    margin: 10px auto;
+    border-bottom: solid 1px black;
+}
+
+.mobile-menu ul li a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3em;
     line-height: 37px;
     /* identical to box height */
     color: #000000;
