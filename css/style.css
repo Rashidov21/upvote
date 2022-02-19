@@ -129,3 +129,30 @@ header nav .wrapper ul {
     line-height: 37px;
     color: #000000;
 }
+
+
+/* BANNER AREA STYLE  */
+
+.banner-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content .banner-text {
+    font-weight: 900;
+    font-size: 5em;
+    line-height: 112px;
+    color: #000000;
+}
+
+.banner-content .banner-img {
+    /* position: absolute; */
+    max-width: 90%;
+}
+
+.banner-content .banner-img img {
+    position: absolute;
+    right: 0;
+}

@@ -1,3 +1,18 @@
+section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
 .bottom-line {
     width: 0px;
     height: 2px;
@@ -23,4 +38,20 @@
     top: 15%;
     right: 10%;
     transition: all 0.5s;
+}
+
+
+/* BUTTONS  */
+
+.banner-button {
+    position: absolute;
+    left: 20%;
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 15px 50px;
+    background: #F4DC4C;
+    opacity: 0.7;
+    border-radius: 15px;
 }

@@ -1,3 +1,13 @@
+@media screen and (max-width:1400px) {
+    .banner-content {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .banner-content .banner-text {
+        font-size: 4em;
+    }
+}
+
 @media screen and (max-width:1100px) {
     .ticker marquee span {
         padding-left: 30px;
@@ -20,6 +30,18 @@
         /* identical to box height */
         color: #000000;
     }
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .banner-content .banner-text {
+        font-weight: 800;
+        font-size: 4em;
+        line-height: 70px;
+        color: #000000;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -40,5 +62,42 @@
     }
     .menu {
         display: block;
+    }
+    .banner-content .banner-text {
+        font-weight: 800;
+        font-size: 3.2em;
+        line-height: 50px;
+        color: #000000;
+        margin-top: 10px;
+    }
+    .banner-content .banner-img {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .ticker marquee span {
+        padding-left: 30px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2em;
+        line-height: 27px;
+        color: #000000;
+    }
+    .wrapper {
+        display: none;
+    }
+    .logo img {
+        width: 80%;
+    }
+    .menu {
+        display: block;
+    }
+    .banner-content .banner-text {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 45px;
+        color: #000000;
     }
 }
