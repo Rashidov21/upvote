@@ -95,11 +95,11 @@
     }
 }
 
-@media screen and (max-width:512px) {
+@media screen and (max-width:550px) {
     .text .button {
         position: absolute;
         margin-top: 350px;
-        margin-left: 65px;
+        margin-left: 15%;
     }
 }
 
@@ -136,6 +136,6 @@
     .text .button {
         position: absolute;
         margin-top: 300px;
-        margin-left: 25px;
+        margin-left: 15%;
     }
 }
