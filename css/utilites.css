@@ -57,7 +57,7 @@ img {
 }
 
 .arrow-down {
-    position: absolute;
+    position: fixed;
     left: 5%;
-    margin-top: 300px;
+    bottom: 30px;
 }

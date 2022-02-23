@@ -51,7 +51,7 @@
         margin-left: 65px;
     }
     .arrow-down {
-        position: absolute;
+        position: fixed;
         right: 15%;
         margin-top: 400px;
     }
@@ -89,7 +89,7 @@
         margin-left: 65px;
     }
     .arrow-down {
-        position: absolute;
+        position: fixed;
         right: 5%;
         margin-top: 300px;
     }
