@@ -9,7 +9,13 @@
     }
 }
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+    .text .button {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 65px;
+    }
+}
 
 @media screen and (max-width:992px) {
     .ticker marquee span {
@@ -39,10 +45,10 @@
         line-height: 70px;
         color: #000000;
     }
-    .banner-button {
+    .text .button {
         position: absolute;
-        left: 10%;
-        margin-top: 150px;
+        margin-top: 300px;
+        margin-left: 65px;
     }
     .arrow-down {
         position: absolute;
@@ -77,10 +83,10 @@
         color: #000000;
         margin-top: 10px;
     }
-    .banner-button {
+    .text .button {
         position: absolute;
-        left: 10%;
-        margin-top: 450px;
+        margin-top: 400px;
+        margin-left: 65px;
     }
     .arrow-down {
         position: absolute;
@@ -89,7 +95,13 @@
     }
 }
 
-@media screen and (max-width:512px) {}
+@media screen and (max-width:512px) {
+    .text .button {
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 65px;
+    }
+}
 
 @media screen and (max-width:420px) {
     .ticker marquee span {
@@ -120,5 +132,10 @@
         position: absolute;
         right: 0;
         top: 380px;
+    }
+    .text .button {
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 25px;
     }
 }

@@ -134,13 +134,32 @@ header nav .wrapper ul {
 
 /* BANNER AREA STYLE  */
 
+#banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text {
+    width: 100%;
+    min-height: 300px;
+}
+
 .banner-text {
-    font-weight: 900;
+    font-weight: 800;
+    font-style: normal;
     font-size: 5em;
-    line-height: 112px;
+    line-height: 100px;
     color: #000000;
-    display: inline-block;
+    display: flex;
+    align-items: flex-end;
     margin-left: 60px;
+}
+
+.text .button {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 65px;
 }
 
 .banner-image {
