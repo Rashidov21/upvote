@@ -125,7 +125,7 @@
     .banner-text {
         font-weight: 800;
         font-size: 40px;
-        line-height: 45px;
+        line-height: 55px;
         color: #000000;
     }
     .banner-image {
@@ -136,6 +136,6 @@
     .text .button {
         position: absolute;
         margin-top: 300px;
-        margin-left: 15%;
+        margin-left: 20%;
     }
 }
