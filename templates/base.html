@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upvote Website</title>
+    <link rel="stylesheet" href="{% static 'css/milligram.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Ovozber</h1>
+                <ul class="nav-links" style="display:flex;">
+                    <li><a href="#">Mening ovozlarim</a></li>
+                    <li>
+                        <a href="#">
+                            Kirish
+                        </a>
+                    </li>
+                    <li><a href="#">Chiqish</a></li>
+                    <li><a href="#">Ro'yhatdan o'tish</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+    
+    <footer class="container">
+        <p>&copy; 2024 Upvote Website. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
