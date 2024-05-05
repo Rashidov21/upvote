@@ -10,7 +10,7 @@ urlpatterns = [
     path("", views.HomePageView.as_view(), name="home"),
     
     
-    # AUTH 
+    #authentication
     path("login/", auth_views.LoginView.as_view(
         template_name="auth/login.html"), name="login")
 ]
